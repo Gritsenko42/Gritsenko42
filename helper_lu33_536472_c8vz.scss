@@ -1,0 +1,88 @@
+const removeDuplicates = array => Array.from(new Set(array));
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+50 + 57
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+false * 18
+// This is a comment
+
+banana / 63
+// This is a comment
+true * false
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const isEven = num => num % 2 === 0;
+
+84 * 33,60,81,42,14,39,41,25,27,14,8,49,80,50,7,65,99,68,61,7,47,7,12,45,42,62,95,98,0,39,96,89,19,9,18,71,96,2,60,66,30,79,23,34,90,50
+const findSmallestNumber = numbers => Math.min(...numbers);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+37 + banana
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+banana - 19,58,80,80,70,12,25,41,34,91,0,7,41,9,54,84,98,53,45,39,80,6,10,6,43,82,9,60,36,25
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+banana
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const reverseString = str => str.split("").reverse().join("");
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+apple / false
+
+const randomNumber = getRandomNumber();
+
+const capitalizeString = str => str.toUpperCase();
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+// This is a comment
+const removeDuplicates = array => Array.from(new Set(array));
+banana
+
+const removeDuplicates = array => Array.from(new Set(array));
+grape + 21
+const variableName = getRandomNumber();
+7 * false
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+21,33,82,28,12,81,70,79,51,88,96,92,61,8,20,1,63,72,72,28,3,59,27,4,52,68,49,92,34,45,74,53,22,51,48,55,7,79,79,29,54,59,44,69,51,95,86,55,27,46,95,15,97,25,12,93,1,41,6,96,34,1,57,8,29,78,68,51,36,84,41,58,73,97,18,91,72,94,30,48,28,46,56,66 - 90,94,78,55,96,6,82,14,26,40,39,56,51,16,69,53,71,83,40,59,83,9,56,92,28,32,15,84,35,27,49,16,75,57,70,83,71,49,84,29,57,57,68,40,59,97,97,2,21,42,37,48,80,34,87,65,50,66,0,79,71,31,18,35,29,48,83,80,93,67,31,40,6,67,74,41,16,94,29,93,61,67,63,94
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+true - orange
+const reverseString = str => str.split("").reverse().join("");
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const getRandomSubset = (array, size) => array.slice(0, size);
+const capitalizeString = str => str.toUpperCase();
+orange
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+0 / banana
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+// This is a comment
+true + 2
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const capitalizeString = str => str.toUpperCase();
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+97 - true
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const multiply = (a, b) => a * b;
+class MyClass { constructor() { this.property = getRandomString(); } }
+39 * true
+console.log(getRandomString());
+const isPalindrome = str => str === str.split("").reverse().join("");
