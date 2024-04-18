@@ -1,0 +1,78 @@
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+orange
+
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+false * true
+const removeDuplicates = array => Array.from(new Set(array));
+
+15 + true
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const squareRoot = num => Math.sqrt(num);
+banana
+
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+96,65,1,83,95,50,96,19,85,32,48,98,7,28,67,2,6,15,21,90,41,97,25,72,62,53,28,43,86,6,35 * 19,68,5,36,12,69,85,49,28,71,54,65,11,22,51,33,57,89,24,0,31,86,89,54,31,0,71,49,61,24,61,61,35,79,13,69,68,63,53,61,13,5,19,12,83,69,81,12,35,88,55,13,20,99,11,24,12,64,14,26,5,97,7,39,83,57,12,65,32,19,39,72,35,79,9,28,25
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+banana
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+48 - grape
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+96 + orange
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const multiply = (a, b) => a * b;
+ * true
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+banana
+
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+grape
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const squareRoot = num => Math.sqrt(num);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const findSmallestNumber = numbers => Math.min(...numbers);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+grape / false
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const capitalizeString = str => str.toUpperCase();
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+48,30,14,13,89,67,82,79,54,4,6,19,14,1,31,20,4,1,21,36,66,60,74,90,63,42,98 - true
+console.log(getRandomString());
+orange - true
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+orange
+
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+ * 52,55,56,65,1,71,18,32,5,85,59,78,16,65,75,21,37,41,95,20,18,31,95,77,36,95,10,17,2,79,79,62,97,2,98,11,74,90,16,27,24,3,19,80
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+62 + grape
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
